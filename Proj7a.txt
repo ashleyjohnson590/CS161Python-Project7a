@@ -1,0 +1,8 @@
+#Author:Ashley Johnson
+#Date: 11/3/2020
+#Description: Program takes a list of numbers as a parameter and replaces each number in list with
+# the square of that value.
+def square_list(nums):
+    """replaces each number in list with the square of that value."""
+    for i in range(len(nums)):
+        nums[i] = nums[i]*nums[i]
